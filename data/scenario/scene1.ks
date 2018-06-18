@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/s_scene1.ks]
+[_tb_system_call storage=system/_scene1.ks]
 
 [cm  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="321591__macdaddyno1__japanese-cicada.ogg"  clear="false"  ]
@@ -7,14 +7,14 @@
 [live2d_show  name="cow"  scale="1.3"  time="1000"  left="-291"  top="-126"  ]
 [tb_start_text mode=1 ]
 #
-炎炎夏日，喺大嶼山天壇大佛之下嘅一條小河川，[p]
+[font color=gray]炎炎夏日，喺大嶼山天壇大佛之下嘅一條小河川，[p]
 一位頭上長有牛角，身穿破爛嘅魁梧少年，[p]
-正喺度同四個不知來歷嘅黑影人戰鬥。[p]
+喺度同四個不知來歷嘅黑影人戰鬥。[resetfont][p]
 
 [_tb_end_text]
 
 [stopse  time="500"  buf="1"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="bensound-extremeaction.ogg"  ]
+[playbgm  volume="20"  time="1000"  loop="true"  storage="bensound-extremeaction.ogg"  fadein="true"  ]
 [live2d_motion  name="cow"  filenm="03_angry.mtn"  idle="true"  ]
 [tb_start_text mode=1 ]
 #少年
@@ -28,11 +28,11 @@
 [chara_show  name="blackppl4"  time="1000"  wait="true"  storage="chara/1/black_ppl.png"  width="239"  height="515"  left="539"  top="126"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
-黑影嘍囉群喺河岸分站四角，包圍並要攻擊少年。[p]
+[font color=gray]黑影嘍囉群喺河岸分站四角，包圍並要攻擊少年。[p]
 佢地慢慢行入河川，逐漸收窄包圍網。[p]
-黑影人雖無面容，但殺氣非凡，當下要置少年於死地。[p]
+黑影人雖無面容，但殺氣甚狂，似乎想置少年於死地。[p]
 少年自知無法全身而退，唯有架起攻勢，等待時機。[p]
-喺一瞥間，黑影人乘勢跳起，猛力往少年擊去。[p]
+一瞥之間，黑影人乘勢跳起，猛力往少年擊去。[resetfont][p]
 [_tb_end_text]
 
 [chara_move  name="blackppl"  anim="false"  time="300"  effect="default"  wait="true"  left="146"  top="133"  width="239"  height="515"  ]
@@ -70,26 +70,26 @@
 [live2d_trans  name="cow"  time="1000"  left="77"  top="-126"  ]
 [tb_start_text mode=1 ]
 #
-黑影人聲色俱厲，身子縱起，一湧而上，就向牛角少年從空抓去。[p]
+[font color=gray] 黑影人們身子縱起，一湧而上，就向牛角少年從空抓去。[resetfont][p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
-豈知少年並無怯場，反而從容呼吸。[p]
+[font color=gray] 豈知少年並無怯場，只見他凝神屏氣。[resetfont][p]
 [_tb_end_text]
 
 [live2d_trans  name="cow"  time="1000"  left="291"  top="-126"  ]
 [tb_start_text mode=1 ]
-挺直腰板，用佢頭上嘅單角，[p]
-撞飛其中一位直面迎來嘅黑影人。[p]
+[font color=gray] 就喺電光火石間，少年挺直腰板，用佢頭上嘅單角，[p]
+一下撞飛其中一位直面迎來嘅黑影人。[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="100466__awesomemann1234__smash.ogg"  ]
 [chara_hide  name="blackppl"  time="1000"  wait="true"  pos_mode="true"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
-再猛然揮動手上嘅圓形大鎚，揮旋一周。[p]
+[font color=gray]再猛然揮動手上嘅圓形大鎚，揮旋一周。[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  loop="true"  storage="100466__awesomemann1234__smash.ogg"  ]
@@ -110,22 +110,22 @@
 [quake  time="1000"  count="5"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
-那大鎚揮轉，以少年為中心刮起咗一陣波浪，[p]
-大鎚刮起嘅陣風，呼呼聲響，[p]
+[font color=gray]那圓渾大鎚揮轉，以少年為中心刮起咗一陣波浪，[p]
+大鎚刮起嘅陣風，呼呼聲響，[resetfont][p]
 [_tb_end_text]
 
 [quake  time="1000"  count="5"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
-甚至震撼森林，頓時飛葉飄蕩。[p]
+[font color=gray]甚至震撼森林，頓時飛葉飄蕩。[resetfont][p]
 [_tb_end_text]
 
 [live2d_trans  name="cow"  time="1000"  left="-120"  top="-126"  ]
 [tb_start_text mode=1 ]
-只聽到乒乓連響，大鎚破空而至，[p]
+[font color=gray]呼風飛葉中，只聽到乒乓連響，大鎚破空而至，[p]
 黑影人們紛紛中鎚，彈飛至幾丈之遠，[p]
 黑影人們又豈能抵受少年嘅連環重擊？[p]
 眼見佢地身軀終化為粉末，漸漸粉碎消失。[p]
-少年先後擊退黑影嘍囉， 而不費吹灰之力。[p]
+少年先後擊退黑影嘍囉， 而不費吹灰之力。[resetfont][p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -140,12 +140,12 @@
 
 [tb_start_text mode=1 ]
 #
-少年過往已多次受黑影人們騷擾，不得其解。[p]
+[font color=gray] 少年過往已多次受黑影人們騷擾，不得其解。[p]
 即使少年一次又一次擊退黑影人，[p]
 對方仍無退意，未已，又再次襲來。[p]
 正當少年望住空中消散嘅嘅黑色粉末，[p]
 準備收起武器之際——[p]
-一位剩番上半身嘅黑影人未完全碎成粉末，以僅有嘅雙腿前往民居方向。[p]
+一位剩番上半身嘅黑影人未完全碎成粉末，以僅有嘅雙腿前往民居方向。[resetfont][p]
 [_tb_end_text]
 
 [live2d_motion  name="cow"  filenm="03_angry.mtn"  idle="true"  ]
@@ -158,9 +158,9 @@
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
-少年暗叫不妙，只好急急運起飛鎚，擊斃打算襲擊民居嘅黑影。[p]
+[font color=gray]少年暗叫不妙，只好急急運起飛鎚，擊斃打算襲擊民居嘅黑影。[p]
 黑影受到衝擊，脆弱嘅身驅頓時四分五裂，[p]
-碎片果然化成粉塵，停止移動。[p]
+碎片果然化成粉塵，停止移動。[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -173,8 +173,8 @@
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bensound-sadday.ogg"  ]
 [tb_start_text mode=1 ]
 #
-少年執起一撮黑粉，[p]
-只見粉末細至毫末，並不尋常。[p]
+[font color=gray]少年執起一撮黑粉，[p]
+只見粉末細至毫末，並不尋常。[resetfont][p]
 #少年
 到底呢啲黑影人係妖術定道術變出嚟？[p]
 我都未曾見過黑影人碎裂會變成咁細嘅粉末。[p]
@@ -182,30 +182,30 @@
 
 [tb_start_text mode=1 ]
 #
-黑影人襲擊牛角少年已持續數年。[p]
+[font color=gray] 黑影人襲擊牛角少年已持續數年。[p]
 牛角少年雖嘗試詢黑影人動機尋得線索，對方卻未曾回答。[p]
 為免黑衣人加害自己，少年唯有自保。[p]
 正當牛角少年捻起粉末，細忖黑衣人由來之際，[p]
-河邊另一端傳來機械起動嘅聲音，引起少年嘅注意。[p]
+河邊另一端傳來機械起動嘅聲音，引起少年嘅注意。[resetfont][p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="152021__winsx87__garbage-track.ogg"  ]
 [tb_start_text mode=1 ]
-「嘰——嘰嘰嘰——」[p]
-少年行近聲音來源，望近啲，[p]
+[font color=gray]「嘰——嘰嘰嘰——」[p]
+少年行近聲音來源，望近啲， [resetfont][p]
 [_tb_end_text]
 
 [camera  time="1000"  zoom="1.5"  wait="true"  x="20"  y="40"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
-原來係一架重型垃圾車喺河邊偷倒垃圾！[p]
+[font color=gray]原來係一架重型垃圾車喺河邊偷倒垃圾！ [resetfont][p]
 
 #少年
 …………。[p]
 #
-岩岩先收拾完黑影嘅少年已經煩到拗晒頭，[p]
+[font color=gray]岩岩先收拾完黑影嘅少年已經煩到拗晒頭，[p]
 呢個時候又嚟多個破壞自然嘅人，打斷少年思考，[p]
-令少年頗為不快，決定直斥司機一個不是。[p]
+令少年頗為不快，決定直斥司機一個不是。[resetfont][p]
 [_tb_end_text]
 
 [live2d_motion  name="cow"  filenm="03_angry.mtn"  idle="true"  ]
@@ -252,31 +252,28 @@
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bensound-dance.ogg"  ]
 [tb_start_text mode=1 ]
 #
-憤怒嘅少年放棄爭辯，高舉手瓜起腱嘅雙手，[p]
-頂住一個傾倒緊廢料嘅垃圾櫃，與車力抗！[p]
+[font color=gray]憤怒嘅少年放棄爭辯，高舉手瓜起腱嘅雙手，[p]
+頂住一個傾倒緊廢料嘅垃圾櫃，與車力抗！ [resetfont][p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [camera  time="1000"  zoom="3"  wait="true"  x="130"  y="130"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
-「啪、啪啪———」[p]
-連住垃圾櫃嘅起重裝置，隨即發出犘打運轉嘅低鳴聲。[p]
-司機見此人力大無窮，一人之力竟擋住起重裝置，臉上露出驚詫憤怒的神色。[p]
+[font color=gray]「啪、啪啪———」連住垃圾櫃嘅起重裝置，隨即發出犘打運轉嘅低鳴聲。[p]
+司機見佢力大無窮，一人之力竟擋住起重裝置，臉上露出驚詫憤怒的神色。 [resetfont][p]
 
 #司機
 ……你都痴線嘅！搵食姐，犯法啊？[p]
 #
-起重裝置擢到貨車劇烈搖晃，前傾後倒，砰砰有聲。[p]
-力度之大，幾乎撞暈司機。[p]
+[font color=gray]起重裝置擢到貨車劇烈搖晃，前傾後倒，砰砰有聲。[p]
+力度之大，幾乎撞暈司機。[resetfont][p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [reset_camera  time="1000"  wait="true"  ]
 [tb_start_text mode=1 ]
-「啪、啪啪！啪、啪啪———砰！」[p]
-過咗冇耐，起重裝置竟然因為負荷過重，[p]
-發出一聲巨響後就驟失動力。[p]
-司機躍起身來察看，心中大感驚駭。[p]
+[font color=gray] 「啪、啪啪！啪、啪啪———砰！」過咗冇耐，起重裝置竟然因為負荷過重，發出一聲巨響後就驟失動力。[p]
+司機躍起身來察看，心中大感驚駭。[resetfont][p]
 
 #司機
 嘩撞鬼啦，你唔係人類嚟嘅！時運高睇唔到！睇唔到！[p]
@@ -284,10 +281,10 @@
 我之後一定會報仇雪恨！[p]
 
 #
-司機被少年神力嚇倒，自知無法阻止眼前有異能嘅牛角少年，[p]
+[font color=gray]司機被少年神力嚇倒，自知無法阻止眼前有異能嘅牛角少年，[p]
 只好駕車逃之夭夭，呼的一聲自少年眼中消失。[p]
 雖然剛才貨車起重裝置失效，貨車上所有垃圾未被非法傾倒，[p]
-但部分未扣好嘅垃圾，因為剛才嘅騷動散落係河邊。[p]
+但部分未扣好嘅垃圾，因為剛才嘅騷動散落係河邊。[resetfont][p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
@@ -306,9 +303,9 @@
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bensound-sadday.ogg"  ]
 [tb_start_text mode=1 ]
 #
-喺呢條河川附近，間唔中都會有不法之徒傾倒垃圾，[p]
+[font color=gray] 喺呢條河川附近，間唔中都會有不法之徒傾倒垃圾，[p]
 少年心地良善，為咗避免啲垃圾整污糟條河，[p]
-唯有親自動手，收拾石仔河灘上嘅垃圾。[p]
+唯有親自動手，收拾石仔河灘上嘅垃圾。[resetfont][p]
 
 [_tb_end_text]
 
@@ -322,10 +319,10 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #
-少年慢慢搬起床、櫃、櫈等嘅傢私，搬離河邊石仔灘。[p]
+[font color=gray] 少年慢慢搬起床、櫃、櫈等嘅傢私，搬離河邊石仔灘。[p]
 喺佢搬緊最後一個大木櫃嘅時候，發現木櫃旁邊有本舊漫畫雜誌。[p]
 少年甚感興趣，一手抬櫃，一手抄起漫畫雜誌細閱封面。[p]
-少年似乎悟到某啲意思，忽然望住本漫畫雜誌陰陰咀笑。[p]
+少年似乎悟到某啲意思，忽然望住本漫畫雜誌陰陰咀笑。[resetfont][p]
 [_tb_end_text]
 
 [live2d_motion  name="cow"  filenm="04_shy.mtn"  idle="true"  ]
@@ -335,43 +332,42 @@
 嘿嘿，竟然有人會跌咗呢本《龍虎炮》嘅第一集，真係嘥晒！[p]
 呢本明明係限量版嚟，好彩我執到姐，執垃圾都衰唔晒！[p]
 #
-少年對成人漫畫雜誌頗有興趣，俯拾雜誌，打算翻開就看。[p]
+[font color=gray]少年對成人漫畫雜誌頗有興趣，俯拾雜誌，打算翻開就看。[resetfont][p]
 [_tb_end_text]
 
 [live2d_motion  name="cow"  filenm="01_idle.mtn"  idle="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="48419__akxucker__step.ogg"  ]
 [tb_start_text mode=1 ]
 #
-喺少年執緊垃圾嘅同時，另一邊嘅草叢，[p]
+[font color=gray]喺少年執緊垃圾嘅同時，另一邊嘅草叢，[p]
 似乎有位不明人士喺度左撥右掃，向少年前進。[p]
-莫非係剛才司機落車想偷襲？[p]
-莫非來者係另一個黑影人？[p]
+莫非係——？[resetfont][p]
 
 [_tb_end_text]
 
 [live2d_trans  name="cow"  time="1000"  top="-126"  left="200"  ]
+[stopse  time="1000"  buf="0"  ]
 [camera  time="1000"  zoom="1.2"  wait="true"  ]
 [tb_start_text mode=1 ]
-
 #少年
 ………………………………（咕嚕）[p]
 #
-來者不明，少年只好提高警覺，[p]
+[font color=gray]來者不明，少年只好提高警覺，[p]
 下意識將珍貴成人雜誌槷入底衫，[p]
-吞咗一啖口水，靜待時機，抄起大鎚準備應戰。[p]
+吞咗一啖口水，靜待時機，抄起大鎚準備應戰。[resetfont][p]
 #少年
 ………………………………[p]
 #
-不明人士喺草叢擾攘咗幾分鐘，好唔容易先將有半個身咁高嘅灌林挪開。[p]
+[font color=gray]不明人士喺草叢擾攘咗幾分鐘，好唔容易先將有半個身咁高嘅灌林挪開。[resetfont][p]
 [_tb_end_text]
 
 [quake  time="1000"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
-少年顯得緊張，手心泌汗。[p]
-勢估唔到，一位少女由灌林中探頭而出。[p]
+[font color=gray] 少年顯得緊張，手心泌汗。[p]
+勢估唔到，一位少女由灌林中探頭而出。[resetfont][p]
 #少年
 ………………………………[p]
-………………來者何許人？[p]
+………………來者何人？[p]
 [_tb_end_text]
 
 [stopse  time="1000"  buf="0"  ]
@@ -381,18 +377,18 @@
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bensound-thelounge.ogg"  ]
 [tb_start_text mode=1 ]
 #
-少女頭上仲黐咗幾塊樹葉，顯得有啲狼狽。[p]
+[font color=gray]少女頭上仲黐咗幾塊樹葉，顯得有啲狼狽。[p]
 但仔細一睇，少女容貌秀麗，眼珠靈動，帶住一種令人屏息靜氣嘅貴族氣韻。[p]
 
 少女由灌林隙縫間慢慢走出嚟。[p]
 束住一頭姿整嘅馬尾長髮嘅佢，身穿嘅西洋禮服莊重又帶啲時尚，隨身帶住一把黃色遮。[p]
-雖然灌林中爬出略顯窘迫，但少女眉目嬌美，神姿秀麗，身姿婀娜，剎那間吸引少年目光。[p]
+雖然灌林中爬出略顯窘迫，但少女眉目嬌美，身姿婀娜，剎那間吸引少年目光。 [resetfont][p]
 #少女
 單邊牛角、小麥色皮膚、富有正義感……終於搵到你喇。[p]
 #少年
 ………………！？[p]
 #
-貧民少年面對突如其來嘅貴族少女，竟一時語塞。[p]
+[font color=gray]貧民少年面對突如其來嘅貴族少女，竟一時語塞。 [resetfont][p]
 [_tb_end_text]
 
 [live2d_motion  name="cow"  filenm="04_shy.mtn"  idle="true"  ]
@@ -401,7 +397,7 @@
 [tb_start_text mode=1 ]
 #少年
 敢問姑娘高姓大名？所為何事？[p]
-#維多利亞
+#少女
 ……………………姑娘？[p]
 好傳統嘅稱呼方式……[p]
 嗯，喺我介紹自己之前，我嚟喺想通知你一件事……[p]
@@ -420,7 +416,7 @@
 [live2d_trans  name="cow"  time="1000"  top="-126"  left="300"  ]
 [tb_start_text mode=1 ]
 #
-少年保持戒心，一手抬起木櫃，另一手執住大鎚，未肯放低。[p]
+[font color=gray]少年保持戒心，一手抬起木櫃，另一手執住大鎚，未肯放低。[resetfont][p]
 #少女
 嗯……垃圾？[p]
 剛才我見有貨車運載垃圾，原來喺呢度傾倒……[p]
@@ -434,18 +430,18 @@
 [live2d_trans  name="cow"  time="1000"  top="-126"  left="320"  ]
 [tb_start_text mode=1 ]
 #
-少年未知對方何人，自然避免同對方接觸。[p]
-藉執垃圾時間，暗中觀察少女行為。[p]
+[font color=gray]少年未知對方何人，自然避免同對方接觸。[p]
+藉執垃圾時間，暗中觀察少女行為。[resetfont][p]
 #少女
 好啦，我等你清完垃圾先再講，[p]
 有心保護環境都係好事嚟嘅。[p]
 By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 #少年
-知道。[p]
+當然。[p]
 #
-少女耐心咁等待牛角少年處理垃圾，[p]
+[font color=gray]少女耐心咁等待牛角少年處理垃圾，[p]
 不消半刻，健壯有力嘅少年從容清理好河川，[p]
-環境又再次變得乾淨。[p]
+環境又再次變得乾淨。[resetfont][p]
 [_tb_end_text]
 
 [live2d_trans  name="01_victoria"  time="1000"  top="-141"  left="-90"  ]
@@ -460,8 +456,8 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 [chara_show  name="blackppl"  time="1000"  wait="true"  storage="chara/1/black_ppl.png"  width="239"  height="515"  left="300"  top="127"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
-少女話未講完，突然就有另一個黑色人影從少女身後冒出，[p]
-竟想殺少女一個措手不及！[p]
+[font color=gray]少女話未講完，突然就有另一個黑色人影從少女身後冒出，[p]
+竟想殺少女一個措手不及！[resetfont][p]
 [_tb_end_text]
 
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bensound-extremeaction.ogg"  ]
@@ -471,8 +467,8 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 #少年
 小心有伏！[p]
 #
-少年見狀大呼一聲。[p]
-提起大鎚，舉成標槍，擺好掟出姿勢。[p]
+[font color=gray]少年見狀大呼一聲。[p]
+提起大鎚，舉成標槍，擺好掟出姿勢。[resetfont][p]
 #少女
 哼？[p]
 [_tb_end_text]
@@ -481,8 +477,8 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 [live2d_trans  name="01_victoria"  time="1000"  top="-142"  left="-180"  ]
 [tb_start_text mode=1 ]
 #
-正當少年大鎚離手之際，少女捩手就握住手上嘅黃色遮，[p]
-用遮尖向黑影人猛然一刺。[p]
+[font color=gray]正當少年大鎚離手之際，少女捩手就握住手上嘅黃色遮，[p]
+用遮尖向黑影人猛然一刺。[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="412863__gprosser__tennis-smash.ogg"  ]
@@ -490,16 +486,16 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 [live2d_trans  name="01_victoria"  time="1000"  top="-141"  left="-80"  ]
 [chara_hide  name="blackppl"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
-只見黑影人中招之後瑟瑟發抖，[p]
-最後連自己嘅身影都維持唔住，化成塵埃，消散於空氣之中。[p]
+[font color=gray]只見黑影人中招之後瑟瑟發抖，[p]
+最後連自己嘅身影都維持唔住，化成塵埃，消散於空氣之中。[resetfont][p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [live2d_motion  name="cow"  filenm="01_idle.mtn"  idle="true"  ]
 [tb_start_text mode=1 ]
-望見呢幕嘅少年，驚訝少女身手了得，[p]
-但少年出手太快，攻擊收勢不及，[p]
-連人帶鎚撞凹地下數米，幾乎喺少女面前仆倒，顯得有啲窘態。[p]
+[font color=gray]望見呢幕嘅少年，驚訝少女身手了得，[p]
+但少年出手太快，收掣不及，[p]
+連人帶鎚撞凹地下數米，幾乎喺少女面前仆倒，顯得有啲窘態。[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="100466__awesomemann1234__smash.ogg"  ]
@@ -520,7 +516,7 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 #少女
 ……我可以當睇唔到。[p]
 #
-少年慢慢站起，當乜都冇發生過。[p]
+[font color=gray] 少年慢慢站起，當乜都冇發生過。[resetfont][p]
 [_tb_end_text]
 
 [live2d_trans  name="cow"  time="1000"  top="-126"  left="250"  ]
@@ -540,11 +536,12 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 
 [tb_start_text mode=1 ]
 #
-維多利亞將自己個朵「大嶼之王」錯讀俗音，令相當重視自己頭銜嘅少年頗為不滿。[p]
+[font color=gray]維多利亞將自己個朵「大嶼之王」錯讀俗音，令相當重視自己頭銜嘅少年頗為不滿。[resetfont][p]
 #少年
 大嶼（罪）之王先啱，麻煩你重新讀一次！[p]
 #
-少年神態認真，維多利亞只得諾諾連聲。[p]
+[font color=gray]少年神態認真，維多利亞只得諾諾連聲。[resetfont][p]
+#少年
 #維多利亞
 ……………………好啦。[p]
 大、大嶼（罪）——之王，唔知你有無一個短啲嘅名呢？[p]
@@ -601,17 +598,17 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 與其送畀電話畀我，不如——[p]
 
 #
-阿牛心中對呢位少女充滿疑問[p]
+[font color=gray]阿牛心中對呢位少女充滿疑問[p]
 點解維多利亞會知道佢自己個朵？[p]
 又點解佢知道黑影人？[p]
-佢又知到咩程度？[p]
+佢又知到咩程度？[resetfont][p]
 
 #
-而且身為男子漢大丈夫，黑影咁危險嘅事，真係需要牽涉呢位少女嗎？[p]
+[font color=gray]而且身為男子漢大丈夫，黑影咁危險嘅事，真係需要牽涉呢位少女嗎？[p]
 雖然——係呢位少女邀請自己。[p]
 但望見呢位少女年輕氣盛，唔幫佢嘅話，佢就只會落入更危險嘅境地，[p]
 況且黑影之事，大概將唔再只係大嶼山嘅事，[p]
-所以——[p]
+所以——[resetfont][p]
 
 
 [_tb_end_text]
@@ -634,8 +631,8 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bensound-tenderness.ogg"  ]
 [tb_start_text mode=1 ]
 #
-但面對突如其來嘅少女、提出處理黑影嘅訴求，同埋佢了得嘅身手，[p]
-阿牛開始推測少女可能嘅來歷——。[p]
+[font color=gray]但面對突如其來嘅少女、提出處理黑影嘅訴求，同埋佢了得嘅身手，[p]
+阿牛開始推測少女可能嘅來歷——。[resetfont][p]
 #阿牛
 ……可能同係師父嘅預言有關——。[p]
 #維多利亞
@@ -660,8 +657,8 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 我諗我都未必會再離開呢庶，[p]
 我已經太習慣呢庶，外面嘅生活，我……[p]
 #
-講到呢度，突然有架飛機係天空劃過，傳出雄亮而低沉嘅引擎聲。[p]
-見聽聲音嘅阿牛一時語頓，望咗住架飛機，若有所思。[p]
+[font color=gray]講到呢度，突然有架飛機係天空劃過，傳出雄亮而低沉嘅引擎聲。[p]
+見聽聲音嘅阿牛一時語頓，望咗住架飛機，若有所思。[resetfont][p]
 
 #阿牛
 …………[p]
@@ -669,9 +666,9 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 #維多利亞
 依家啟德都變成住宅喇，而機場嘅重任就落咗係大嶼山嚕，話咁快就廿幾年。[p]
 #
-當兩人望咗一陣，見飛機遠去，喺天際間慢慢消失，往一個未知嘅地方進發。[p]
+[font color=gray]當兩人望咗一陣，見飛機遠去，喺天際間慢慢消失，往一個未知嘅地方進發。[p]
 望過飛機翱翔嘅阿牛，開始慢慢放低一啲餘慮，始得放鬆心情。[p]
-佢微微一笑，接番頭先嘅說話——[p]
+佢微微一笑，接番頭先嘅說話——[resetfont][p]
 [_tb_end_text]
 
 [live2d_motion  name="cow"  filenm="02_happy.mtn"  idle="true"  ]
@@ -689,11 +686,72 @@ By the way，呢度係咁山旯旮，你知道點去垃圾房咩？[p]
 [live2d_hide  name="01_victoria"  time="1000"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="bg_base.png"  ]
-[tb_ptext_show  x="138"  y="163"  size="15"  color="0x000000"  time="1000"  text="Thanks!"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
+[tb_ptext_show  x="138"  y="163"  size="15"  color="0x000000"  time="2501"  text="【第一章】少女與牛"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_hide  time="1000"  ]
+[live2d_show  name="cow"  scale="1.3"  time="1000"  left="-291"  top="-126"  ]
+[live2d_motion  name="cow"  filenm="01_idle.mtn"  idle="true"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+[font color=gray]最後，阿牛上咗維多利亞嘅車。佢戰戰兢兢咁坐上未曾經見過嘅高級房車，輕輕咁摸落張櫈皮度，硬係覺得有少少唔自然。[resetfont][p]
+[_tb_end_text]
+
+[live2d_show  name="01_victoria"  scale="1"  time="1000"  left="228"  top="-129"  ]
+[tb_start_text mode=1 ]
+#
+[font color=gray]而係揸緊車嘅同時，維多利亞透過倒後鏡望望後座嘅阿牛，都覺佢唔多自然。[resetfont][p]
+[_tb_end_text]
+
+[live2d_motion  name="01_victoria"  filenm="03_agree.mtn"  ]
+[tb_start_text mode=1 ]
+#維多利亞
+第一次坐車？[p]
+#阿牛
+第一次坐呢種車。[p]
+#維多利亞
+唔～嗯。[p]
+[_tb_end_text]
+
+[live2d_motion  name="01_victoria"  filenm="01_Idle.mtn"  ]
+[live2d_motion  name="cow"  filenm="02_happy.mtn"  ]
+[tb_start_text mode=1 ]
+#阿牛
+話說……我一直想問好耐，維多姑娘，你點解識得我？[p]
+#維多利亞
+啊，關於呢層就——[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+[font color=gray]維多利亞拎部I-phoneX出嚟，開咗Facebook，遞畀阿牛睇。[resetfont][p]
+[_tb_end_text]
+
+[live2d_motion  name="01_victoria"  filenm="03_agree.mtn"  ]
+[tb_start_text mode=1 ]
+#維多利亞
+你係Facebook大嶼山Group出晒名喇！[p]
+#阿牛
+Face…book 谷？嘩，點解我會係個入面架？[p]
+[_tb_end_text]
+
+[live2d_motion  name="cow"  filenm="03_angry.mtn"  ]
+[tb_start_text mode=1 ]
+#Post Caption
+[font color=gray]神經動漫打扮乞衣少年，三番四次神臂擋車，到底係搞邊科嘅大力士表演？青山走犯？還是復仇者？——《水果日報》Facebook Post[resetfont][p]
+#阿牛
+…………。[p]
+[_tb_end_text]
+
+[live2d_hide  name="01_victoria"  time="1000"  ]
+[live2d_hide  name="cow"  time="1000"  ]
+[tb_hide_message_window  ]
 [tb_ptext_show  x="138"  y="208"  size="15"  color="0x000000"  time="1000"  text="MUSIC:Royalty&nbsp;Free&nbsp;Music&nbsp;from&nbsp;Bensound,&nbsp;freesound.org(under&nbsp;the&nbsp;Creative&nbsp;Commons&nbsp;0&nbsp;License)"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="138"  y="263"  size="15"  color="0x000000"  time="1000"  text="BACKGROUND:&nbsp;k-after(http://k-after.at.webry.info/)"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
-[tb_ptext_show  x="138"  y="310"  size="15"  color="0x000000"  time="1000"  text="SCRIPT:&nbsp;阿言"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="138"  y="310"  size="15"  color="0x000000"  time="1000"  text="SCRIPT:&nbsp;筆言"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="138"  y="352"  size="15"  color="0x000000"  time="1000"  text="CHARACTERS:Achiba&nbsp;(Hong&nbsp;Kong&nbsp;Saga)"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="138"  y="397"  size="15"  color="0x000000"  time="1000"  text="EDITING:&nbsp;Achiba&nbsp;(Hong&nbsp;Kong&nbsp;Saga)"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="138"  y="474"  size="15"  color="0x000000"  time="1000"  text="下集繼續！"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[camera  time="1000"  zoom="1.2"  wait="true"  ]
 [s  ]
+[live2d_motion  name="undefined"  ]
